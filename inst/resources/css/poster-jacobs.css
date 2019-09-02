@@ -23,17 +23,14 @@ body {
   display: grid;
   grid-template-areas:
     'S1 S1 S1 S1'
-    'S2 S4 S5 S9'
-    'S2 S4 S5 S9'
-    'S2 S4 S5 S9'
-    'S2 S6 S6 S10'
-    'S3 S7 S8 S11'
-    'S3 S7 S8 S11'
-    'S3 S7 S8 S11'
-    'S3 S7 S8 S12'
-    'S3 S7 S8 S12';
+    'S2 S2 S2 S2'
+    'S3 S3 S5 S5'
+    'S3 S3 S5 S5'
+    'S4 S4 S6 S6'
+    'S4 S4 S6 S6'
+    'S7 S7 S7 S7';
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(10, 1fr);
+  grid-template-rows: repeat(7, 1fr);
 }
 
 .section-1 { grid-area: S1; }
@@ -43,11 +40,6 @@ body {
 .section-5 { grid-area: S5; }
 .section-6 { grid-area: S6; }
 .section-7 { grid-area: S7; }
-.section-8 { grid-area: S8; }
-.section-9 { grid-area: S9; }
-.section-10 { grid-area: S10; }
-.section-11 { grid-area: S11; }
-.section-12 { grid-area: S12; }
 
 h1, .poster-title, .figure {
   text-align: center;
