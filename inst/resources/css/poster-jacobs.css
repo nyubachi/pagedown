@@ -82,6 +82,7 @@ h1 {
 table {
   float: left;
   margin: auto;
+  width: 120px;
   border-top: 3px solid #666;
   border-bottom: 3px solid #666;
 }
