@@ -80,12 +80,12 @@ h1 {
 }
 
 table {
-  float: left;
+  float: none;
   margin: auto;
-  width: 1200px;
   border-top: 3px solid #666;
   border-bottom: 3px solid #666;
 }
+
 table thead th { border-bottom: 3px solid #ddd; }
 td { padding: 8px; }
 th { padding: 15px; }
