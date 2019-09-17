@@ -84,6 +84,7 @@ table {
   margin-right: auto;
   border-top: 3px solid #666;
   border-bottom: 3px solid #666;
+  font-size: 42.67px;
 }
 
 table thead th { border-bottom: 3px solid #ddd; }
