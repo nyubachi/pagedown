@@ -28,9 +28,9 @@ body {
     'S3 S3 S5 S5'
     'S3 S3 S5 S5'
     'S3 S3 S5 S5'
-    'S3 S3 S5 S5'
     'S3 S3 S6 S7'
-    'S3 S3 S6 S7';
+    'S3 S3 S6 S7'
+    'S3 S3 S8 S8';
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(9, 1fr);
 }
