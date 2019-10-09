@@ -6,8 +6,8 @@
   box-sizing: border-box;
 }
 html {
-  width: 33.09in;
-  height: 46.79in;
+  width: 33.09in; 
+  height: 54.66in; /* A0の46.79in + タイトル部分の20cm (7.87in)  */
 }
 body {
   margin: 0;
@@ -30,9 +30,10 @@ body {
     'S3 S3 S5 S5'
     'S3 S3 S5 S5'
     'S3 S3 S5 S5'
+    'S3 S3 S5 S5'
     'S3 S3 S6 S7';
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(9, 1fr);
+  grid-template-rows: repeat(10, 1fr);
 }
 
 .section-1 { grid-area: S1; }
